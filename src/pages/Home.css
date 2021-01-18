@@ -199,6 +199,7 @@
   .Light-Mode,
   .Dark-Mode {
     flex-direction: column;
+    height: 90vh;
   }
   .quote-container {
     height: 90vh;
