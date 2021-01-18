@@ -6,7 +6,8 @@ import '../components/AuthorQuotes.css';
 const Catalogue = (props) => {
     const [authorQuotes, setAuthorQuotes] = useState([]);
 
-    const generateAuthorName = () => props.match.params.authorName.split('-')
+    const generateAuthorName = () => props.match.params.authorName
+        .split('-')
         .map((name) => name[0].toUpperCase() + name.substr(1))
         .join(' ');
 
@@ -23,7 +24,7 @@ const Catalogue = (props) => {
     return (
         <>
             <div className="author-catalogue">
-                <Link to="/">
+                <Link to={process.env.PUBLIC_URL + "/"}>
                     <div className="back-to-home">
                         <button className="back">Back</button>
                     </div>

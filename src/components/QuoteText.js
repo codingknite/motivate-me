@@ -13,7 +13,7 @@ const Quote = ({ quoteText, quoteAuthor, quoteGenre, quoteSlug }) => (
                 <GoIcons.GoQuote size="30" />
                 <h1 className="text">{quoteText}</h1>
                 <div className="author-info">
-                    <Link to={"/author/" + quoteSlug} className="author-link">
+                    <Link to={process.env.PUBLIC_URL + "/author/" + quoteSlug} className="author-link">
                         <h4 className="author">{quoteAuthor}</h4>
                         <h4 className="genre">{quoteGenre}</h4>
                         <div className="touch-icon">
@@ -27,4 +27,4 @@ const Quote = ({ quoteText, quoteAuthor, quoteGenre, quoteSlug }) => (
     </div>
 )
 
-export default Quote
+export default Quote;

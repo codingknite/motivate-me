@@ -8,8 +8,8 @@ const App = () => {
   return (
     <>
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/author/:authorName" exact component={AuthorQuotes} />
+        <Route path={process.env.PUBLIC_URL + "/"} exact component={Home} />
+        <Route path={process.env.PUBLIC_URL + "/author/:authorName"} exact component={AuthorQuotes} />
       </Switch>
     </>
   );
