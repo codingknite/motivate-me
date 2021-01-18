@@ -49,11 +49,11 @@ const Quote = () => {
   const Features = () => (
     <div className="feature-container ">
       <div className="modes" onClick={handleClick}>
-        <BsIcons.BsSun className="darkmode" size="30" />
+        <BsIcons.BsSun className="darkmode" size="26" />
       </div>
       <div className="share-twitter">
         <TwitterShareButton url="twitter.com/intent/tweet" title={randomQuote}>
-          <SiIcons.SiTwitter className="twitter-icon" size="32" />
+          <SiIcons.SiTwitter className="twitter-icon" size="26" />
         </TwitterShareButton>
       </div>
       <div className="next-quote" onClick={nextQuote}>
