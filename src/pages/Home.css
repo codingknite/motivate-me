@@ -196,10 +196,7 @@
 }
 
 @media (max-width: 768px) {
-  .Light-Mode {
-    height: 100vh;
-  }
-
+  .Light-Mode,
   .Dark-Mode {
     height: 100vh;
   }
