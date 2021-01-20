@@ -1,9 +1,8 @@
 ![project banner](src/img/projectScreenshot.png)
 
 # Motivate Me
-Motivate me is a productivity application that randomly generates quotes and is capable of generating quotes specific to a certain author.
 
-The application is deployed [here](https://codingknite.github.io/motivate-me)
+Motivate me is a productivity application that randomly generates quotes and is capable of generating quotes specific to a certain author.
 
 ## Available Scripts
 
