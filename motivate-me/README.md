@@ -1,4 +1,4 @@
-![project banner](src/img/projectScreenshot.png)
+![project banner](demo.gif)
 
 # Motivate Me
 
