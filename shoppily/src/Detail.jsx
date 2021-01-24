@@ -4,6 +4,8 @@ import useFetch from "./services/useFetch";
 import Spinner from "./Spinner";
 import PageNotFound from "./PageNotFound";
 
+// TODO => Product Details returning 'Page Not Found' because request is being made to port 3000 instead of 3001. Cross-Env Not working for some reason. Fix It!
+
 export default function Detail() {
   const { id } = useParams();
   const navigate = useNavigate();
