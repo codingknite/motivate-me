@@ -9,7 +9,7 @@
       "skus": [
         { "sku": "17", "size": 7 },
         { "sku": "18", "size": 8 }
-      ],
+      ], 
       "description": "This rugged boot will get you up the mountain safely."
     },
     {

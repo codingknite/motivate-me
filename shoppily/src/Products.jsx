@@ -23,7 +23,7 @@ export default function Products() {
         </Link>
       </div>
     );
-  }
+  } 
 
   const filteredProducts = size
     ? products.filter((p) => p.skus.find((s) => s.size === parseInt(size)))
