@@ -6,10 +6,10 @@ export default function useFetch(url) {
     const isMounted = useRef(false)
     const [data, setData] = useState(null)
     const [error, setError] = useState(null);
-    const [loading, setLoading] = useState(true);
+    const [loading,  setLoading] = useState(true);
 
     useEffect(() => {
-        isMounted.current = true
+        isMounted.current = true // useRef
         async function init() {
             try {
                 const response = await fetch(baseUrl + url);
@@ -26,7 +26,7 @@ export default function useFetch(url) {
             }
         }
         init();
-
+        //important to note
         return () => {
             isMounted.current = false
         }
