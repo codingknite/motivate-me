@@ -57,38 +57,23 @@
         }
       ],
       "description": "Look stylish while stomping in the mud."
+    },
+    {
+      "id": 4,
+      "category": "bags",
+      "image": "backpack1.jpg",
+      "name": "Explorer Bag",
+      "price": 199.99,
+      "description": "Everything you need in one place."
+    },
+    {
+      "id": 5,
+      "category": "bags",
+      "image": "backpack2.jpg",
+      "name": "Champion Bag",
+      "price": 299.99,
+      "description": "Explore the heights in one pack"
     }
   ],
-  "shippingAddress": [
-    {
-      "id": 1,
-      "city": "",
-      "country": ""
-    },
-    {
-      "city": "",
-      "country": "",
-      "id": 2
-    },
-    {
-      "city": "",
-      "country": "",
-      "id": 3
-    },
-    {
-      "city": "Kampala",
-      "country": "China",
-      "id": 4
-    },
-    {
-      "city": "Kampala",
-      "country": "China",
-      "id": 5
-    },
-    {
-      "city": "Kampala",
-      "country": "China",
-      "id": 6
-    }
-  ]
+  "shippingAddress": []
 }
